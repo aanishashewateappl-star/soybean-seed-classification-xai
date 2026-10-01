@@ -9,12 +9,10 @@ Transfer-learning classifiers (ResNet50 and ResNet18) for soybean seed condition
 - **Motivation:** seed quality grading is a visual task, and visual explanations make a model's decisions easier to check
 
 ## Results
-| Model | Epochs | Test Accuracy |
+| Model | Test Accuracy |
 |---|---|---|
-| ResNet50 | 10 | 81.40% |
-| ResNet18 | 20 | 76.21% |
+| ResNet50 | 81.40% |
+| ResNet18 | 76.21% |
 
 LIME segments the image into superpixels and shows which ones increased or decreased the score for the predicted class.
 
-## Tech Stack
-PyTorch · torchvision · scikit-learn · LIME · matplotlib · NumPy · Pillow
