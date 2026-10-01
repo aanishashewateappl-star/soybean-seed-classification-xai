@@ -6,7 +6,7 @@ to make predictions interpretable — intended to give farmers actionable, visua
 rather than a black-box label.
 
 ## Overview
-- **Task:** 5-class image classification of soybean seed condition
+- **Problem task:** 5-class image classification of soybean seed condition
 - **Models:** ResNet50 and ResNet18 (transfer learning, frozen backbone + custom head)
 - **Explainability:** LIME (Local Interpretable Model-agnostic Explanations) to visualize 
   which regions of a seed image drove the prediction
