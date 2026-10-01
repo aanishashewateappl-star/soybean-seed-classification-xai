@@ -10,7 +10,6 @@ Transfer-learning classifiers (ResNet50 and ResNet18) for soybean seed condition
 
 ## Results
 | Model | Test Accuracy |
-|---|---|---|
 | ResNet50 | 81.40% |
 | ResNet18 | 76.21% |
 
